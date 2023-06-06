@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords" content="HTML, CSS, JavaScript" />
+    <meta name="author" content="Serap Erkan" />
+    <meta name="description" content="ImageRealm  | HTML, CSS & JS" />
+    <!-- custom css -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/utilities.css" />
+
+    <!-- google fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&family=Nunito+Sans:wght@200;300;400;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- font awesome icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon" sizes="32" />
+    <title>Image Realm</title>
+  </head>
+
+  <body>
+    <!--------------------------------------------- header -->
+    <header class="header" id="header">
+      <nav class="navbar">
+        <div class="container flex">
+          <a class="navbar-brand flex">
+            <span class="brand"></span>
+            <span class="text-uppercase text-white font-sm fw-5"
+              >SerapErkan</span
+            >
+          </a>
+          <button type="button" class="navbar-toggler-btn">
+            <span class="bar bg-blue"></span>
+            <span class="bar bg-blue"></span>
+            <span class="bar bg-blue"></span>
+          </button>
+
+          <div class="navbar-collapse bg-blue">
+            <ul class="navbar-nav text-capitalize font-md fw-7">
+              <li class="nav-item">
+                <a href="#header" class="nav-link text-white">home</a>
+              </li>
+              <li class="nav-item">
+                <a href="#about" class="nav-link text-white">about us</a>
+              </li>
+              <li class="nav-item">
+                <a href="#courses" class="nav-link text-white">courses</a>
+              </li>
+              <li class="nav-item">
+                <a href="#programs" class="nav-link text-white">programs</a>
+              </li>
+              <li class="nav-item">
+                <a href="#contact" class="nav-link text-white">contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- --------------------banner--------- -->
+      <div class="header-banner-wrapper">
+        <div id="banner-1" class="header-banner banner-one flex fade">
+          <div class="container text-center text-white">
+            <h1>Knowledge is power</h1>
+            <p class="lead">Any successful career start with good education</p>
+            <button type="button" class="btn">Learn more</button>
+          </div>
+        </div>
+        <div id="banner-2" class="header-banner banner-two flex fade">
+          <div class="container text-center text-white">
+            <h1>A school for life</h1>
+            <p class="lead">Any successful career start with good education</p>
+            <button type="button" class="btn">Learn more</button>
+          </div>
+        </div>
+        <div id="banner-3" class="header-banner banner-three flex fade">
+          <div class="container text-center text-white">
+            <h1>A Journey to Excellence</h1>
+            <p class="lead">Any successful career start with good education</p>
+            <button type="button" class="btn">Learn more</button>
+          </div>
+        </div>
+        <div id="banner-4" class="header-banner banner-four flex fade">
+          <div class="container text-center text-white">
+            <h1>Committed to Excellence</h1>
+            <p class="lead">Any successful career start with good education</p>
+            <button type="button" class="btn">Learn more</button>
+          </div>
+        </div>
+
+        <div class="dots">
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+          <span class="dot" onclick="currentSlide(3)"></span>
+          <span class="dot" onclick="currentSlide(4)"></span>
+        </div>
+      </div>
+
+      <!-- -------------end of ---banner--------- -->
+    </header>
+    <!--------------------------------------------- end of header -->
+    <main>
+      <!-- about section -->
+      <section class="about bg-white" id="about">
+        <div class="container">
+          <div class="about-content grid">
+            <div class="about-left">
+              <img src="/images/about.png" />
+            </div>
+            <div class="about-right">
+              <h2 class="font-xl">Education</h2>
+              <p class="text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Officiis impedit esse voluptates culpa non neque rerum pariatur
+                dicta, officia dignissimos eligendi quos corrupti inventore
+                libero?
+              </p>
+              <div class="font-md fw-6">
+                <div class="about-icon flex">
+                  <img src="images/about-1.PNG" />
+
+                  <span>Learn Anything</span>
+                </div>
+                <div class="about-icon flex">
+                  <img src="images/about-2.png" />
+
+                  <span>Talk To Our Instructors</span>
+                </div>
+                <div class="about-icon flex">
+                  <img src="images/about-3.png" />
+                  <span>Speak With Others</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- end of about section -->
+    </main>
+  </body>
+
+  <!-- jquery cdn -->
+  <script src="js/jquery-3.5.1.js"></script>
+  <script src="js/script.js"></script>
+</html>
